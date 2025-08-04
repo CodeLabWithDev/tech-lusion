@@ -4,4 +4,3 @@
     <NuxtPage />
   </NuxtLayout>
 </template>
-<script type="ts" setup></script>

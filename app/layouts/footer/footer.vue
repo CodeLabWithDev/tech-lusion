@@ -152,7 +152,7 @@
           <!-- Legal Links -->
           <div class="flex justify-center items-center ssm:mt-[100px]">
             <ul
-              class="flex items-center justify-center flex-wrap mb-0 gap-y-[10px] gap-x-[14px] lg:gap-x-[5px]"
+              class="flex items-center justify-center flex-wrap mb-0 gap-y-[10px] gap-x-[14px] lg:gap-x-[10px]"
             >
               <li
                 v-for="link in legalLinks"

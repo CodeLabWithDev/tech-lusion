@@ -75,10 +75,10 @@
                 <transition name="fade-dropdown">
                   <div
                     v-if="activeDropdown === index && menu.submenus"
-                    class="absolute top-full left-1/2 -translate-x-1/2 w-max bg-white z-50 pt-[30px]"
+                    class="absolute top-full left-1/2 -translate-x-1/2 w-max z-50 pt-[30px]"
                   >
                     <div
-                      class="px-[40px] pt-[60px] pb-[45px] flex justify-between gap-[40px] shadow-[0_4px_22px_var(--color-shadow-long)] rounded-[18px] border border-neutral-300"
+                      class="px-[40px] pt-[60px] pb-[45px] flex justify-between gap-[40px] shadow-[0_4px_22px_var(--color-shadow-long)] rounded-[18px] border border-neutral-300 bg-white"
                     >
                       <div
                         v-for="(category, catIndex) in menu.submenus"
@@ -112,7 +112,7 @@
                         <template v-else>
                           <NuxtLink
                             :to="category.link"
-                            class="text-neutral-800 hover:text-primary-hover text-[16px] font-normal leading-[1.125em] transition-colors duration-300 whitespace-nowrap"
+                            class="text-neutral-600 hover:text-primary-hover text-[16px] font-normal leading-[1.125em] transition-colors duration-300 whitespace-nowrap"
                           >
                             {{ category.category }}
                           </NuxtLink>
